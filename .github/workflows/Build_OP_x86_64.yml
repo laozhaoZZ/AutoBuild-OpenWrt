@@ -8,8 +8,9 @@
 name: Build_x86_64
 
 on: 
-  inputs:
-    types: [published]
+  repository_dispatch:
+  workflow_dispatch:
+
 
   #push:
   #  branches: 
