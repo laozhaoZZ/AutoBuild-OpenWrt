@@ -8,7 +8,7 @@
 name: Build_x86_64
 
 on: 
-  release:
+  inputs:
     types: [published]
 
   #push:
